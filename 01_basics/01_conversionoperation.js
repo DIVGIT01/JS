@@ -28,7 +28,7 @@ console.log(typeof someString)
 
 // ************************** OPERATIONS **************************
 
-let abc = 55
+/* let abc = 55
 let varr = -abc 
 console.log(varr)
 
@@ -41,7 +41,10 @@ console.log(3%2)
 console.log("1" + 2 )          // 12
 console.log(1 + "2")          // 12
 console.log(1 + 2 + "3")     //33
-console.log("5" + 5 + 4)     //554
+console.log("5" + 5 + 4)     //554   */
 
+
+console.log(+true)             // boolean 1
+console.log(+"")            // boolean 0
 
 
