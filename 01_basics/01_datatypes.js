@@ -16,7 +16,15 @@ let islogged_IN = false
 //object
 
 console.log(typeof"divya")
-console.log(typeof num)
+consol
+
+
+console.log(undefined == 0);
+console.log(undefined > 0);
+console.log(undefined < 0);
+
+// === 
+console.log("2"=== 2)              // it will check the datatypes , then compare !e.log(typeof num)
 
 
 // ********** DATATYPES ***********
@@ -30,20 +38,3 @@ console.log(typeof num)
 
 // Array, Objects , Functions
 
-const id = Symbol('123')
-const ANOTHERid = Symbol('123')
-
-console.log (id === ANOTHERid)                    // false
-
-
-console.log(null > 0);
-console.log(null < 0);
-console.log(null >= 0);
-
-
-console.log(undefined == 0);
-console.log(undefined > 0);
-console.log(undefined < 0);
-
-// === 
-console.log("2"=== 2)              // it will check the datatypes , then compare !
