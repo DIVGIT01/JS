@@ -42,9 +42,34 @@ const  Marvel_heros =  ["Batman", "Spiderman", "Ironman"]
 const  dc_heros = ["superman", "flash", "Captain"]
 
 /*Marvel_heros.push(dc_heros)
-console.log(Marvel_heros)   */     // this will push dcheros"Array" to marvelARRAY.
+console.log(Marvel_heros)        // this will push dcheros"Array" to marvelARRAY.
 
 Marvel_heros.concat(dc_heros)
 const Allhero = Marvel_heros.concat(dc_heros)    // this will push them as a string not as array.
 console.log(Allhero);
 
+//Instead of using "concat" method , we can use "SPREAD" OPERATOR to join 2 arrays.
+
+// SPREAD OPERATOR
+const all_new_heros = [...Marvel_heros, ...dc_heros]
+console.log(all_new_heros)
+
+// FLAT METHOD (RARELY USED)
+//  -------- A RARE CASE : ARRAY me ARRAY me ARRAY me ARRAY-----
+const sun = [1,2,3,[4,5], 5,6,[7,[8,9], 10], 11]    //now we have to spread it out 
+const anotherarr = sun.flat(Infinity)     // we write depth in the bracket .
+console.log(anotherarr)
+*/
+
+
+console.log(Array.isArray("divya"));
+console.log(Array.from("DIVYA"));
+console.log(Array.from({name : "DIVYA"}))   // interesting. this will ask whether to implement key or the value ? .
+
+
+// (.of) is used to create a new array instance form the arguments we provide. 
+let score1 = 200;
+let score2 = 300;
+let score3 = 400;
+
+console.log(Array.of(score1, score2, score3)); 
