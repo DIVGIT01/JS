@@ -3,7 +3,7 @@
 //declaration : - 
 
 // (decalaring a symbol and then use it as the key.--------FAQ!!!!)
-const mySum = Symbol("key1");
+/*const mySum = Symbol("key1");
 
 const JsUser = {
     name : "Divya",
@@ -19,13 +19,13 @@ console.log(JsUser["full name"])
 
 //CHANGING VALUES :-
 
-/*JsUser.email = "tdivyachat@gmail.com"
+JsUser.email = "tdivyachat@gmail.com"
 console.log(JsUser)
 
 // FREEZING THE VALUE :- No change will happen in the values of object.
 Object.freeze(JsUser)
 JsUser.email = "hariomgpt@gmail.com"
-console.log(JsUser)*/
+console.log(JsUser)
 
 JsUser.greeting = function(){
     console.log("Hello JS User")
@@ -38,4 +38,9 @@ JsUser.greeting1 = function(){
 
 console.log (JsUser.greeting())
 console.log(JsUser.greeting1())
+*/
+
+
+// ------------------  BY CONSTRUCTOR(SINGLETON)  -------------------
+
 
