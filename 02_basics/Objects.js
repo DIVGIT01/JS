@@ -44,3 +44,37 @@ console.log(JsUser.greeting1())
 // ------------------  BY CONSTRUCTOR(SINGLETON)  -------------------
 
 
+// const tinderUser = new object();  --------->  By Literal Method
+const tinderUsr = {};    // -----------> Singleton Method
+
+tinderUsr.id = "123abc";
+tinderUsr.name = "Sammy";
+tinderUsr.isLoggedIn = false;
+
+// console.log(tinderUsr)
+
+const regularUser = {
+    email : "tdivyaprakash9971@gmail.com",
+    fullName : {
+        userFullName : {
+            firstName : "Divya",
+            lastName : "Tiwari"
+        }
+    }
+}
+
+// console.log(regularUser.fullName.userFullName.firstName)
+
+
+// Combinig Objects(can be 2 or more).....
+const obj1 = {1 : "a", 2 : "b"}
+const obj2 = {3 : "c" , 4 : "d"}
+const obj5 = {7 : "f", 8 : "j"}
+
+/*const obj3 = Object.assign({}, obj1, obj2, obj5)   // combine all objects.
+console.log(obj3) */ 
+
+// there is an another way to combine.
+
+const obj3 = {...obj1 , ...obj2, ...obj5}
+console.log(obj3)
