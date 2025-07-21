@@ -77,4 +77,24 @@ console.log(obj3) */
 // there is an another way to combine.
 
 const obj3 = {...obj1 , ...obj2, ...obj5}
-console.log(obj3)
+// console.log(obj3)
+
+
+const users = [
+    { id : 1,
+        email : "divya@gmail.com"
+    },
+    { id : 2,
+        email : "divya2@gmail.com"
+    },
+    { id : 3,
+        email : "divya3@gmail.com"
+    }
+]
+
+console.log(users[1].email)
+console.log(tinderUsr)
+
+console.log(Object.keys(tinderUsr))
+console.log(Object.values(tinderUsr))
+
