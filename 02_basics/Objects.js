@@ -92,9 +92,26 @@ const users = [
     }
 ]
 
-console.log(users[1].email)
-console.log(tinderUsr)
+//console.log(users[1].email)
+//console.log(tinderUsr)
 
-console.log(Object.keys(tinderUsr))
-console.log(Object.values(tinderUsr))
+//console.log(Object.keys(tinderUsr))
+//console.log(Object.values(tinderUsr))
+
+const course = {
+    coursename : "JS",
+    price : 999,
+    courseinstructor : "Hitesh"
+}
+
+// ham normally bhi kisi key:value pair ko call kr skte.....but instead of this...---->
+const {courseinstructor : instructor} = course  //or
+console.log(instructor)
+
+// --------- DE-STRUCTURING OBJECTS ----------
+/*const navbar = ({}) => {
+
+}
+navbar(company = "hitesh")*/
+
 
